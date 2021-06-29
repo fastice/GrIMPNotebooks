@@ -6,4 +6,4 @@ git clone https://github.com/fastice/gimpfunc.git
 
 # Only edit above
 
-exec "$@
+exec "$@"
