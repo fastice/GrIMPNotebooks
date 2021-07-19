@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Only edit below
+
+git clone https://github.com/fastice/gimpfunc.git
+
+#https://gis.stackexchange.com/questions/263852/using-initqgis-on-headless-installation-of-qgis-3
+export QT_QPA_PLATFORM=offscreen
+
+# Only edit above
+
+exec "$@"
