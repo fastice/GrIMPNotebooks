@@ -6,7 +6,7 @@ Notebooks for working with Greenland Ice Mapping Project (GIMP) data archived at
 
 ## Binder
 
-These notebooks can run locally on a users own machine or cloud resource, but users can also run them remotely free of charge as a *binder*(https://jupyter.org/binder) app. Advantages to *binder* are:
+These notebooks can run locally on a users own machine or cloud resource, but users can also run them remotely free of charge as a [*binder*](https://jupyter.org/binder) app. Advantages to *binder* are:
 - The notebook runs in a well-test, pre-configured environment,
 - No need to setup on your own machine.
 
