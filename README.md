@@ -31,4 +31,4 @@ This notebook allows users to download subsets of [GIMP](https://nsidc.org/data/
 
 ## Caveats
 
-These notebooks rely on http network transfers, which can be flaky. So for some crashes, you need not be crazy to repeat the same procedure and expect a different result.
+These notebooks rely on http network transfers, which can be flaky. So for some crashes, you need not be crazy to repeat the same procedure over and over and expect a different result (at least not for the first few tries).
