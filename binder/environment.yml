@@ -28,3 +28,6 @@ dependencies:
   - sat-search
   - sat-stac
   - xarray
+  - pip
+  - pip:
+    - git+https://github.com/fastice/gimpfunc@HEAD.git
