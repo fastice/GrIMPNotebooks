@@ -22,4 +22,4 @@ dependencies:
   - rioxarray
   - pip
   - pip:
-    - git+https://github.com/fastice/gimpfunc@HEAD.git
+    - git+https://github.com/fastice/gimpfunc.git@HEAD
