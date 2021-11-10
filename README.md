@@ -1,6 +1,6 @@
 # GIMPNotebooks
 
-[![Binder](https://gke.mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/fastice/GIMPNotebooks/binder?urlpath=lab)
+[![Binder](https://gke.mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/fastice/GIMPNotebooks/binder?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Ffastice%252FGIMPNotebooks%26urlpath%3Dlab%252Ftree%252FGIMPNotebooks%252F%26branch%3Dmaster)
 
 Notebooks for working with Greenland Ice Mapping Project (GIMP) data archived at NSIDC
 
