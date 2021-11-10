@@ -1,3 +1,4 @@
+# Environment file for GIMP Notebooks
 name: forge
 channels:
   - conda-forge
