@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Only edit below
+
+#https://gis.stackexchange.com/questions/263852/using-initqgis-on-headless-installation-of-qgis-3
+export QT_QPA_PLATFORM=offscreen
+
+# Only edit above
+
+exec "$@"
