@@ -21,6 +21,7 @@ dependencies:
   - qgis
   - rasterio
   - rioxarray
+  - setuptools
   - pip
   - pip:
     - git+https://github.com/fastice/gimpfunc.git@master
