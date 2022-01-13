@@ -17,11 +17,11 @@ dependencies:
   - nbgitpuller
   - panel
   - param
+  - pip
   - progressbar2
   - qgis
   - rasterio
   - rioxarray
-  - pip
+  - stackstac
   - pip:
     - git+https://github.com/fastice/gimpfunc.git@master
-    - git+https://github.com/gjoseph92/stackstac.git@main
