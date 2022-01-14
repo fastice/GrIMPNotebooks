@@ -7,11 +7,11 @@ Notebooks for working with Greenland Ice Mapping Project (GIMP) data archived at
 ## Binder
 
 These notebooks can run locally on a users own machine or cloud resource, but users can also run them remotely free of charge as a [*binder*](https://jupyter.org/binder) app. Advantages to *binder* are:
-- The notebook runs in a well-test, pre-configured environment,
+- The notebook runs in a well-tested, pre-configured environment,
 - No need to setup on your own machine.
 
 There are some limitations to *binder*:
-- The *binder* instances are limited to 2GB of memory, which can easily be exceeded if too large a region is or too many products are selected.
+- The *binder* instances are often limited to 2GB of memory, which can easily be exceeded if too large a region is or too many products are selected.
 - The *binder* instance will time out after an ten minutes of inactivity, and all work will be lost. Keeping the notebook in the foreground while it runs should avoid a timeout. 
 
 To run the notebooks, click on the launchbinder button at the top of this file.
