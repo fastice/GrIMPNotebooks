@@ -25,4 +25,5 @@ dependencies:
   - stackstac
   - pip:
     - git+https://github.com/fastice/gimpfunc.git@master
+  - pip:
     - git+https://github.com/fastice/gimpQGIS.git@master
