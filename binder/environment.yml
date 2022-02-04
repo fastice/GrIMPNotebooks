@@ -26,3 +26,4 @@ dependencies:
   - pip:
     - git+https://github.com/fastice/gimpfunc.git@master
     - git+https://github.com/fastice/gimpqgis.git@master
+    - git+https://github.com/fastice/nisardev.git@master    
