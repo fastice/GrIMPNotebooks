@@ -2,7 +2,7 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastice/GIMPNotebooks/HEAD?urlpath=lab) (potentially faster)
 
-[![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastice/GIMPNotebooks/HEAD?urlpath=lab) (more memory)
+[![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/GIMPNotebooks/HEAD?urlpath=lab) (more memory)
 
 Notebooks for working with Greenland Ice Mapping Project (GIMP) data archived at NSIDC
 
