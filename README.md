@@ -26,6 +26,13 @@ The directions for setup are contained in the notebook, so its a good idea to re
 
 This notebook can also setup the login authentication for *QGIS* for remotely viewing the products at NSIDC.
 
+## Flowlines.ipynb
+
+This notebook demonstrates how Greenland Ice Mapping Project can be remotely accessed to create plots along flowlines from Felikson et al., 2020, which are archived on Zenodo. The copies of the shapefiles included in this repository were downloaded in late January 2022.
+
+It allows generation of flowline and time series plots for any of the glaciers in the Felikson shape files (essentially all major glaciers).
+
+
 ## GIMPSubsetterNotebook.ipynb
 
 This notebook allows users to download subsets of [GIMP](https://nsidc.org/data/measures/gimp) image ([NSIDC-0723](https://nsidc.org/data/nsidc-0723)) and velocity ([NSIDC-481](https://nsidc.org/data/nsidc-0481), [0725](https://nsidc.org/data/nsidc-0725), [0727](https://nsidc.org/data/nsidc-0727), [0731](https://nsidc.org/data/nsidc-0731), and [0766](https://nsidc.org/data/nsidc-0766)) data. This process allows relatively small downloads for individual glaciers rather than having to download full Greenland datasets, which can exceed 2TB.
