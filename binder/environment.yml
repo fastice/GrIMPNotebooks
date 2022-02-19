@@ -28,4 +28,5 @@ dependencies:
     - git+https://github.com/fastice/gimpfunc.git@master
     - git+https://github.com/fastice/gimpqgis.git@master
     - git+https://github.com/fastice/nisardev.git@main
+    - git+http://github.com/developmentseed/rio-stac@master
     
