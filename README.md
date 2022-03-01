@@ -30,6 +30,8 @@ This notebook can also setup the login authentication for *QGIS* for remotely vi
 
 ## [workingWithGIMPVelocity.ipynb](//github.com/fastice/GIMPNotebooks/blob/master/workingWithGIMPVelocity.ipynb)
 
+This notebook demonstrate much of the functionality of the nisarVel and nisarVelSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GIMP velocity data remotely.
+
 ## Flowlines.ipynb
 
 This notebook demonstrates how Greenland Ice Mapping Project can be remotely accessed to create plots along flowlines from Felikson et al., 2020, which are archived on Zenodo. The copies of the shapefiles included in this repository were downloaded in late January 2022.
