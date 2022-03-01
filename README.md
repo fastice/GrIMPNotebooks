@@ -18,6 +18,18 @@ There are some limitations to *binder*:
 
 To run the notebooks, click on the launchbinder button at the top of this file.
 
+## Installation on Local Machine
+
+If not running in binder, the easiest and surest way to run these notebooks is use create a [conda](https://docs.conda.io/en/latest/) environment using the [environment.yml](https://github.com/fastice/GIMPNotebooks/blob/master/binder/environment.yml) file in the binder folder for this repository.
+
+    conda env create -f environment.yml
+    python -m ipykernel install --user --name=greenlandMapping
+
+Once installation is complete:
+
+    conda activate greenlandMapping
+    jupyter lab
+
 ## [NSIDCLoginNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb) - Start Here!
 
 This notebook contains a lot of information about setup and lets the user test the NSIDC login. If the environment is up and running (e.g., if launched from binder), then it can be skipped.
@@ -28,22 +40,15 @@ The directions for setup are contained in the notebook, so its a good idea to re
 
 This notebook can also setup the login authentication for *QGIS* for remotely viewing the products at NSIDC.
 
-## Installation
-
-If not running in binder, the easiest and surest way to run these notebooks is use create a conda environment using the [environment.yml](https://github.com/fastice/GIMPNotebooks/blob/master/binder/environment.yml) file in the binder folder for this repository.
-
-```conda env create -f environment.yml```
-
 ## [workingWithGIMPVelocity.ipynb](//github.com/fastice/GIMPNotebooks/blob/master/workingWithGIMPVelocity.ipynb)
 
 This notebook demonstrate much of the functionality of the nisarVel and nisarVelSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GIMP velocity data remotely.
 
-## Flowlines.ipynb
+## [Flowlines.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/Flowlines.ipynb)
 
 This notebook demonstrates how Greenland Ice Mapping Project can be remotely accessed to create plots along flowlines from Felikson et al., 2020, which are archived on Zenodo. The copies of the shapefiles included in this repository were downloaded in late January 2022.
 
 It allows generation of flowline and time series plots for any of the glaciers in the Felikson shape files (essentially all major glaciers).
-
 
 ## [GIMPSubsetterNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/GIMPSubsetterNotebook.ipynb)
 
@@ -56,5 +61,7 @@ For the Sentinel based velocity mosaics (0725, 0727, 0731, and 0766), the user c
 This notebook has a search tool to search for *GIMP* products at NSIDC. Following the search, the result can automically be incorporated in a new *QGIS* project that accesses the data remotely. It can also group and save the data as *QGIS Layer Definition Files*, which allow subsets of the data to easily be imported into an existing *QGIS* project.
 
 ## Caveats
+
+The remote access functions for these notebooks will require the user to have a freely available [NASA Earth Data Login](https://urs.earthdata.nasa.gov).
 
 These notebooks rely on http network transfers, which can be flaky. So for some crashes, you need not be crazy to repeat the same procedure over and over and expect a different result (at least not for the first few tries).
