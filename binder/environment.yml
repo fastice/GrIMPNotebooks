@@ -1,5 +1,5 @@
 # Environment file for GIMP Notebooks
-name: forge
+name: greenlandMapping
 #
 channels:
   - conda-forge
