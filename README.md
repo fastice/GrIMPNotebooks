@@ -28,6 +28,8 @@ The directions for setup are contained in the notebook, so its a good idea to re
 
 This notebook can also setup the login authentication for *QGIS* for remotely viewing the products at NSIDC.
 
+## [workingWithGIMPVelocity.ipynb](//github.com/fastice/GIMPNotebooks/blob/master/workingWithGIMPVelocity.ipynb)
+
 ## Flowlines.ipynb
 
 This notebook demonstrates how Greenland Ice Mapping Project can be remotely accessed to create plots along flowlines from Felikson et al., 2020, which are archived on Zenodo. The copies of the shapefiles included in this repository were downloaded in late January 2022.
