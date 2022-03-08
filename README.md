@@ -1,10 +1,10 @@
-# GIMPNotebooks 
+# GRiMPNotebooks 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastice/GIMPNotebooks/HEAD?urlpath=lab) (potentially faster)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastice/GRiMPNotebooks/HEAD?urlpath=lab) (potentially faster)
 
-[![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/GIMPNotebooks/HEAD?urlpath=lab) (more memory)
+[![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/GRiMPNotebooks/HEAD?urlpath=lab) (more memory)
 
-Notebooks for working with Greenland Ice Mapping Project (GIMP) data archived at NSIDC
+Notebooks for working with Greenland Ice Mapping Project (GRiMP) data archived at NSIDC
 
 ## Binder
 
@@ -20,7 +20,7 @@ To run the notebooks, click on the launchbinder button at the top of this file.
 
 ## Installation on Local Machine
 
-If not running in binder, the easiest and surest way to run these notebooks is use create a [conda](https://docs.conda.io/en/latest/) environment using the [environment.yml](https://github.com/fastice/GIMPNotebooks/blob/master/binder/environment.yml) file in the binder folder for this repository.
+If not running in binder, the easiest and surest way to run these notebooks is use create a [conda](https://docs.conda.io/en/latest/) environment using the [environment.yml](https://github.com/fastice/GRiMPNotebooks/blob/master/binder/environment.yml) file in the binder folder for this repository.
 
     conda env create -f environment.yml
     python -m ipykernel install --user --name=greenlandMapping
@@ -30,9 +30,9 @@ Once installation is complete:
     conda activate greenlandMapping
     jupyter lab
     
-The code in these notebooks requires two code from three repositories: [gimpfunc](https://github.com/fastice/gimpfunc), [nisardev](https://github.com/fastice/nisardev), and [gimpqgis](https://github.com/fastice/gimpqgis). The latter is needed only for the [qgisRremoteNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/qgisRemoteNotebook.ipynb) notebook. These packages are install automatically with conda install described above.
+The code in these notebooks requires two code from three repositories: [grimpfunc](https://github.com/fastice/grimpfunc), [nisardev](https://github.com/fastice/nisardev), and [gimpqgis](https://github.com/fastice/gimpqgis). The latter is needed only for the [qgisRremoteNotebook.ipynb](https://github.com/fastice/GRiMPNotebooks/blob/master/qgisRemoteNotebook.ipynb) notebook. These packages are install automatically with conda install described above.
 
-## [NSIDCLoginNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb) - Start Here!
+## [NSIDCLoginNotebook.ipynb](https://github.com/fastice/GRiMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb) - Start Here!
 
 This notebook contains a lot of information about setup and lets the user test the NSIDC login. If the environment is up and running (e.g., if launched from binder), then it can be skipped.
 
@@ -42,25 +42,25 @@ The directions for setup are contained in the notebook, so its a good idea to re
 
 This notebook can also setup the login authentication for *QGIS* for remotely viewing the products at NSIDC.
 
-## [workingWithGIMPVelocity.ipynb](//github.com/fastice/GIMPNotebooks/blob/master/workingWithGIMPVelocity.ipynb)
+## [workingWithGRiMPVelocity.ipynb](//github.com/fastice/GRiMPNotebooks/blob/master/workingWithGRiMPVelocity.ipynb)
 
-This notebook demonstrate much of the functionality of the nisarVel and nisarVelSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GIMP velocity data remotely.
+This notebook demonstrate much of the functionality of the nisarVel and nisarVelSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GRiMP velocity data remotely.
 
-## [Flowlines.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/Flowlines.ipynb)
+## [Flowlines.ipynb](https://github.com/fastice/GRiMPNotebooks/blob/master/Flowlines.ipynb)
 
 This notebook demonstrates how Greenland Ice Mapping Project can be remotely accessed to create plots along flowlines from Felikson et al., 2020, which are archived on Zenodo. The copies of the shapefiles included in this repository were downloaded in late January 2022.
 
 It allows generation of flowline and time series plots for any of the glaciers in the Felikson shape files (essentially all major glaciers).
 
-## [GIMPSubsetterNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/GIMPSubsetterNotebook.ipynb)
+## [GRiMPSubsetterNotebook.ipynb](https://github.com/fastice/GRiMPNotebooks/blob/master/GRiMPSubsetterNotebook.ipynb)
 
-This notebook allows users to download subsets of [GIMP](https://nsidc.org/data/measures/gimp) image ([NSIDC-0723](https://nsidc.org/data/nsidc-0723)) and velocity ([NSIDC-481](https://nsidc.org/data/nsidc-0481), [0725](https://nsidc.org/data/nsidc-0725), [0727](https://nsidc.org/data/nsidc-0727), [0731](https://nsidc.org/data/nsidc-0731), and [0766](https://nsidc.org/data/nsidc-0766)) data. This process allows relatively small downloads for individual glaciers rather than having to download full Greenland datasets, which can exceed 2TB.
+This notebook allows users to download subsets of [GRiMP](https://nsidc.org/data/measures/gimp) image ([NSIDC-0723](https://nsidc.org/data/nsidc-0723)) and velocity ([NSIDC-481](https://nsidc.org/data/nsidc-0481), [0725](https://nsidc.org/data/nsidc-0725), [0727](https://nsidc.org/data/nsidc-0727), [0731](https://nsidc.org/data/nsidc-0731), and [0766](https://nsidc.org/data/nsidc-0766)) data. This process allows relatively small downloads for individual glaciers rather than having to download full Greenland datasets, which can exceed 2TB.
 
 For the Sentinel based velocity mosaics (0725, 0727, 0731, and 0766), the user can select a box for their area of interest (AOI) on a map and then select which components are required (vv, vx, vy, ex, ey, dT). The selected data are the downloaded and saved to a netCDF file. Users can explore the data by interactively selecting points that are plotted as time series. In the case of the TSX products (NSDIC-0481), given their small size, the full product "box" is downloaded. Because of the sparse nature of these boxes, only the the products associated with a single box can be downloaded at a time.
 
-## [qgisRremoteNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/qgisRemoteNotebook.ipynb)
+## [qgisRremoteNotebook.ipynb](https://github.com/fastice/GRiMPNotebooks/blob/master/qgisRemoteNotebook.ipynb)
 
-This notebook has a search tool to search for *GIMP* products at NSIDC. Following the search, the result can automically be incorporated in a new *QGIS* project that accesses the data remotely. It can also group and save the data as *QGIS Layer Definition Files*, which allow subsets of the data to easily be imported into an existing *QGIS* project.
+This notebook has a search tool to search for *GRiMP* products at NSIDC. Following the search, the result can automically be incorporated in a new *QGIS* project that accesses the data remotely. It can also group and save the data as *QGIS Layer Definition Files*, which allow subsets of the data to easily be imported into an existing *QGIS* project.
 
 ## Caveats
 
