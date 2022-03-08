@@ -29,6 +29,8 @@ Once installation is complete:
 
     conda activate greenlandMapping
     jupyter lab
+    
+The code in these notebooks requires two code from three repositories: [gimpfunc](https://github.com/fastice/gimpfunc), [nisardev](https://github.com/fastice/nisardev), and [gimpqgis](https://github.com/fastice/gimpqgis). The latter is needed only for the [qgisRremoteNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/qgisRemoteNotebook.ipynb) notebook. These packages are install automatically with conda install described above.
 
 ## [NSIDCLoginNotebook.ipynb](https://github.com/fastice/GIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb) - Start Here!
 
