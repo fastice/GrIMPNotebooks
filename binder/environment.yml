@@ -9,8 +9,8 @@ dependencies:
   - datashader
   - fsspec
   - gdal
+  - geoviews  
   - geopandas
-  - geoviews
   - holoviews
   - hvplot
   - jupyter-panel-proxy
