@@ -1,5 +1,5 @@
 ## Key Features
-Several features of these classes are useful for working with the GRiMP data as described below.
+Several features of these classes are useful for working with the GrIMP data as described below.
 
 ### Cloud Optimized Geotiffs
 Much of the functionality described here relies on the use of Cloud-optimized Geotiffs ([COGs](https://developers.planet.com/planetschool/an-introduction-to-cloud-optimized-geotiffs-cogs-part-1-overview/)) for GriMP products, which have the following properties:
