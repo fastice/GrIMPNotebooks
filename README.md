@@ -4,7 +4,7 @@
 
 [![Binder](https://gesis.mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/v2/gh/fastice/GrIMPNotebooks/HEAD?urlpath=lab) (more memory)
 
-Notebooks for working with Greenland Ice Mapping Project (GrIMP) data archived at NSIDC
+Notebooks for working with Greenland Ice Mapping Project (GrIMP) data archived at NSIDC, which are funded by the NASA [MEaSUREs](https://earthdata.nasa.gov/esds/competitive-programs/measures) program.
 
 ## Binder
 
