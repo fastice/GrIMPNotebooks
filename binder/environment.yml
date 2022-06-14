@@ -8,7 +8,8 @@ dependencies:
   - dask
   - datashader
   - fsspec
-  - gdal
+  - gdal=3.4.2
+  - tiledb=2.7.1
   - geoviews  
   - geopandas
   - holoviews
