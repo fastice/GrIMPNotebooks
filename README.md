@@ -46,9 +46,9 @@ This notebook can also setup the login authentication for *QGIS* for remotely vi
 
 This notebook demonstrate much of the functionality of the nisarVel and nisarVelSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GrIMP velocity data remotely.
 
-## [workingWithGrIMPVelocity.ipynb](//github.com/fastice/GrIMPNotebooks/blob/master/workingWithGrIMPVelocity.ipynb)
+## [workingWithGrIMPImageData.ipynb](//github.com/fastice/GrIMPNotebooks/blob/master/workingWithGrIMPImageData.ipynb)
 
-This notebook demonstrate much of the functionality of the nisarVel and nisarVelSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GrIMP velocity data remotely.
+This notebook demonstrate much of the functionality of the nisarImage and nisarImageSeries ([nisardev](https://github.com/fastice/nisardev)) classes for working with GrIMP image data remotely.
 
 ## [Flowlines.ipynb](https://github.com/fastice/GrIMPNotebooks/blob/master/Flowlines.ipynb)
 
