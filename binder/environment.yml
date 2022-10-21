@@ -5,10 +5,12 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
+  # Pin this to avoid gdal issues on osx
+  - blosc<=1.21.0
   - dask
   - datashader
   - fsspec
-  - gdal=3.4.2
+  - gdal
   - tiledb=2.7.1
   - geoviews  
   - geopandas
