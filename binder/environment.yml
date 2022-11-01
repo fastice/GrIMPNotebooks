@@ -25,12 +25,12 @@ dependencies:
   - progressbar2
   - qgis
   - rasterio
-  - rioxarray
+  - rioxarray=0.11.1
   - stackstac
   - pip:
     - git+https://github.com/fastice/grimpfunc.git@master
     - git+https://github.com/fastice/grimpqgis.git@master
     - git+https://github.com/fastice/nisardev.git@main
-    - git+https://github.com/developmentseed/rio-stac@main
+    - git+https://github.com/developmentseed/rio-stac@main==0.4.2
     
     
