@@ -4,7 +4,7 @@ name: greenlandMapping
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
+  - python=3.9
   # Pin this to avoid gdal issues on osx
   - blosc<=1.21.0
   - dask
