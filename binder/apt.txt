@@ -1,5 +1,4 @@
-# required for qgis.core
 libgl1-mesa-glx
 libxcb-xinerama0
 zip
-
+git
