@@ -7,6 +7,7 @@ dependencies:
   - python=3.9
   # Pin this to avoid gdal issues on osx
   - blosc<=1.21.0
+  - curl=7.83
   - dask
   - datashader
   - fsspec
