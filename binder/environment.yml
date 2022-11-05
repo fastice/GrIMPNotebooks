@@ -34,5 +34,3 @@ dependencies:
     - git+https://github.com/fastice/nisardev.git@main
     - git+https://github.com/developmentseed/rio-stac@main
     
-    
-    
