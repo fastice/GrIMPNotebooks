@@ -5,7 +5,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.10
-  # - blosc<=1.21.0 Pin this to avoid gdal issues on osx
   - blosc
   - curl=7.83
   - dask
@@ -25,10 +24,8 @@ dependencies:
   - progressbar2
   - qgis
   - rasterio
-  #- rioxarray=0.11.1
   - rioxarray
   - stackstac
-  #- tiledb=2.7.1
   - tiledb
   - pip:
     - git+https://github.com/fastice/grimpfunc.git@master
