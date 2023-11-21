@@ -6,7 +6,7 @@ channels:
 dependencies:
   - python=3.10
   - blosc
-  - curl=7.83
+  - curl
   - dask
   - datashader
   - fsspec
@@ -18,7 +18,7 @@ dependencies:
   - jupyter-panel-proxy
   - jupyterlab>=3
   - nbgitpuller
-  - panel
+  - panel<1
   - param
   - pip
   - progressbar2
