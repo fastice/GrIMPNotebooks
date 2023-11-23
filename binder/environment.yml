@@ -19,7 +19,7 @@ dependencies:
   - jupyterlab>=3
   - nbgitpuller
   - panel<1
-  - param
+  - param<2
   - pip
   - progressbar2
   - qgis
