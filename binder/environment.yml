@@ -18,6 +18,7 @@ dependencies:
   - jupyter-panel-proxy
   - jupyterlab>=3
   - nbgitpuller
+  # As of November 22, panel 1.3.2 and param 2.0 not working. So for now pin
   - panel<1
   - param<2
   - pip
