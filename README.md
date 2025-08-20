@@ -6,6 +6,10 @@
 
 Notebooks for working with Greenland Ice Mapping Project (GrIMP) data archived at NSIDC, which are funded by the NASA [MEaSUREs](https://earthdata.nasa.gov/esds/competitive-programs/measures) program.
 
+## Release Notes
+
+2025-08-20  Updated to fix issues with NSIDC migration of data sets to cloud. The binder/environment.yml file updated to work with python 3.12 (tested on mac osx sequoia).
+
 ## Binder
 
 These notebooks can run locally on a users own machine or cloud resource, but users can also run them remotely free of charge as a [*binder*](https://jupyter.org/binder) app. Advantages to *binder* are:
