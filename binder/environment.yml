@@ -27,10 +27,9 @@ dependencies:
   - rioxarray
   - stackstac
   - tiledb
-  - rio-stac
   - pip:
     - git+https://github.com/fastice/grimpfunc.git@master
     - git+https://github.com/fastice/grimpqgis.git@master
     - git+https://github.com/fastice/nisardev.git@main
-    #- git+https://github.com/developmentseed/rio-stac@main
+    
     
