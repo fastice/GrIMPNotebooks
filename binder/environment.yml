@@ -3,33 +3,13 @@ name: greenlandMapping
 #
 channels:
   - conda-forge
+  - https://repo.prefix.dev/uw-cryo
 dependencies:
   - python=3.12
-  - blosc
-  - curl
-  - dask
-  - datashader
-  - fsspec
-  - gdal
-  - geoviews  
-  - geopandas
-  - holoviews
-  - hvplot
-  - jupyter-panel-proxy
-  - jupyterlab
-  - nbgitpuller
-  - panel
-  - param
-  - pip
-  - progressbar2
+  - grimpfunc
+  - nisardev
   - qgis
-  - rasterio
-  - rioxarray
-  - stackstac
-  - tiledb
   - pip:
-    - git+https://github.com/fastice/grimpfunc.git@master
     - git+https://github.com/fastice/grimpqgis.git@master
-    - git+https://github.com/fastice/nisardev.git@main
-    
-    
+
+

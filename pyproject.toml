@@ -1,0 +1,30 @@
+[project]
+name = "GrIMPNotebooks"
+authors = [{name = "Scott Henderson", email = "3924836+scottyhq@users.noreply.github.com"},
+            {name = "Ian Joughin"}]
+requires-python = ">= 3.11"
+version = "0.1.0"
+dependencies = []
+
+[tool.pixi.workspace]
+channels = ["conda-forge", "https://repo.prefix.dev/uw-cryo"]
+platforms = ["osx-arm64", "linux-64"]
+
+[tool.pixi.dependencies]
+jupyterlab = "*"
+grimpfunc = "*"
+nisardev = "*"
+ #qgis = "*" # NOTE: make optional? really big dependency....
+
+[tool.pixi.pypi-dependencies]
+#grimpfunc = { git = "https://github.com/fastice/grimpfunc.git", rev = "99a4add" }
+#grimpqgis = { git = "https://github.com/fastice/grimpqgis.git"}
+# FOr testing:
+#grimpfunc = { path = "../grimpfunc", editable = true }
+#nisardev = { path = "../nisardev" }
+
+[tool.pixi.tasks]
+quickstart = "jupyter lab --LabApp.default_url='/lab/tree/NSIDCLoginNotebook.ipynb'"
+test = "jupyter execute GrIMPSubsetterNotebook.ipynb --kernel_name='python3'"
+export-env = { cmd = "pixi workspace export conda-environment > binder/environment.yml", description = "Export pixi environment to binder-compatible file" }
+

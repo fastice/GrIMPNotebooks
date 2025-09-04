@@ -1,4 +1,4 @@
-# GrIMPNotebooks 
+# GrIMPNotebooks
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fastice/GrIMPNotebooks/HEAD?urlpath=lab) (potentially faster)
 
@@ -18,23 +18,21 @@ These notebooks can run locally on a users own machine or cloud resource, but us
 
 There are some limitations to *binder*:
 - The *binder* instances are often limited to 2GB of memory, which can easily be exceeded if too large a region is or too many products are selected.
-- The *binder* instance will time out after an ten minutes of inactivity, and all work will be lost. Keeping the notebook in the foreground while it runs should avoid a timeout. 
+- The *binder* instance will time out after an ten minutes of inactivity, and all work will be lost. Keeping the notebook in the foreground while it runs should avoid a timeout.
 
 To run the notebooks, click on the launchbinder button at the top of this file.
 
 ## Installation on Local Machine
 
-If not running in binder, the easiest and surest way to run these notebooks is use create a [conda](https://docs.conda.io/en/latest/) environment using the [environment.yml](https://github.com/fastice/GrIMPNotebooks/blob/master/binder/environment.yml) file in the binder folder for this repository.
+If not running in binder, the easiest and surest way to run these notebooks is use [pixi](https://pixi.sh/latest/installation/)
 
-    conda env create -f environment.yml
-    python -m ipykernel install --user --name=greenlandMapping
+    gh repo clone fastice/GrIMPNotebooks
+    pixi run quickstart
 
-Once installation is complete:
+The code in these notebooks requires two code from three repositories: [GrIMPfunc](https://github.com/fastice/GrIMPfunc), [nisardev](https://github.com/fastice/nisardev), and [gimpqgis](https://github.com/fastice/gimpqgis). The latter is needed only for the [qgisRremoteNotebook.ipynb](https://github.com/fastice/GrIMPNotebooks/blob/master/qgisRemoteNotebook.ipynb) notebook.
 
-    conda activate greenlandMapping
-    jupyter lab
-    
-The code in these notebooks requires two code from three repositories: [GrIMPfunc](https://github.com/fastice/GrIMPfunc), [nisardev](https://github.com/fastice/nisardev), and [gimpqgis](https://github.com/fastice/gimpqgis). The latter is needed only for the [qgisRremoteNotebook.ipynb](https://github.com/fastice/GrIMPNotebooks/blob/master/qgisRemoteNotebook.ipynb) notebook. These packages are install automatically with conda install described above.
+You can also create a conda-
+
 
 ## [NSIDCLoginNotebook.ipynb](https://github.com/fastice/GrIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb) - Start Here!
 
