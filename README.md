@@ -31,9 +31,6 @@ If not running in binder, the easiest and surest way to run these notebooks is u
 
 The code in these notebooks requires two code from three repositories: [GrIMPfunc](https://github.com/fastice/GrIMPfunc), [nisardev](https://github.com/fastice/nisardev), and [gimpqgis](https://github.com/fastice/gimpqgis). The latter is needed only for the [qgisRremoteNotebook.ipynb](https://github.com/fastice/GrIMPNotebooks/blob/master/qgisRemoteNotebook.ipynb) notebook.
 
-You can also create a conda-
-
-
 ## [NSIDCLoginNotebook.ipynb](https://github.com/fastice/GrIMPNotebooks/blob/master/NSIDCLoginNotebook.ipynb) - Start Here!
 
 This notebook contains a lot of information about setup and lets the user test the NSIDC login. If the environment is up and running (e.g., if launched from binder), then it can be skipped.
