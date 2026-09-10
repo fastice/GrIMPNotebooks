@@ -25,6 +25,7 @@ dependencies:
   - qgis
   - rasterio
   - rioxarray
+  - rio-stac
   - stackstac
   - tiledb
   - pip:
