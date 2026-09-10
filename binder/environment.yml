@@ -30,7 +30,7 @@ dependencies:
   - tiledb
   # Binder caches the image per GrIMPNotebooks commit and bakes in the pip installs below at
   # build time. After pushing grimpfunc/nisardev, bump this stamp to force a rebuild.
-  # Image must contain at least: grimpfunc c7a26e4 (2026-09-10), nisardev b6a7eed (0.0.11)
+  # Image must contain at least: grimpfunc c7a26e4 (2026-09-10), nisardev 37c7f27 (0.0.12)
   - pip:
     - git+https://github.com/fastice/grimpfunc.git@master
     - git+https://github.com/fastice/grimpqgis.git@master
